@@ -96,13 +96,16 @@
  pibpercapita = (float) Pib / populacaO;
  printf("PIB Per  capita: %f Reais\n", pibpercapita);
 
-
+ printf("Comparação de Cartas (Atributo:População)\n");
+ printf("Carta 1 - Baiha(BA):%ld\n", populacao);
+ printf("Carta 2 - Goiás(GO):%ld\n", populacaO);
  if(populacao > populacaO){
-  printf("Carta 1 Venveu!\n");
+  printf("Resulatado: Carta 1 (Bahia) Venveu!\n");
  }else{
-    printf("Carta 2 Venceu!\n");
+    printf("Resultado: Carta 2 (Goiás) Venceu!\n");
  }
 
+printf("Comparação de Cartas (Atributo:Area)");
  if(area > Area){
     printf("Carta 1 Venceu!\n");
  }else{
