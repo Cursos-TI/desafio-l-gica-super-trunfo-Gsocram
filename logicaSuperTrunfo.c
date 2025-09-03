@@ -2,7 +2,7 @@
  
 
  int main(){
- printf("Desafio  Super Trunfo - Países - comparação das cartas\n");
+ printf("Desafio  Super Trunfo Países - comparação das cartas\n");
  printf("Carta1:\n");
 
  char Estado [20] = "Bahia";
@@ -54,7 +54,7 @@
 
  printf("carta2:\n");
 
- char estado [20] = "Goiania";
+ char estado [20] = "Goiás";
  char Codigo[20] ="G02";
  char nomedacidadE [20] = "Goiânia";
  unsigned long int populacaO = 2563900;
@@ -114,7 +114,7 @@
  if(pib > Pib){
     printf("Carta 1 Venceu!");
  }else{
-    printf("Carta 1 Venceu!\n");
+    printf("Carta 2 Venceu!\n");
  }
 
  if(numerodepontosturisticos > numerodepontosTuristicos){
@@ -133,7 +133,7 @@
  if(pibpercapita > Pibpercapita){
     printf("Carta 1 Venceu!\n");
  }else{
-    Printf("Carta 2 Venceu!\n");
+    printf("Carta 2 Venceu!\n");
  }
 
 
