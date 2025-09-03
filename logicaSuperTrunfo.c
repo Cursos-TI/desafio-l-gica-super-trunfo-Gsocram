@@ -1,145 +1,145 @@
 #include <stdio.h>
  
 
-int main(){
-printf("Desafio  Super Trunfo - Países - comparação das cartas \n");
-printf("Carta1:\n");
+ int main(){
+ printf("Desafio  Super Trunfo - Países - comparação das cartas\n");
+ printf("Carta1:\n");
 
-char Estado [20] = "Bahia";
-char codigo [20] = "b01";
-char nomedacidade [20] = "Salvador";
-unsigned long int populacao = 2568900;
-float area = 150.75f;
-float pib = 639000000.0f;
-int numerodepontosturisticos = 100;
-float densidadePopulacional;
-float pibpercapita;
-
-
-
-printf("Digite o Estado:"); 
-scanf("%s", &Estado);
+ char Estado [20] = "Bahia";
+ char codigo [20] = "b01";
+ char nomedacidade [20] = "Salvador";
+ unsigned long int populacao = 2568900;
+ float area = 150.75f;
+ float pib = 639000000.0f;
+ int numerodepontosturisticos = 100;
+ float densidadePopulacional;
+ float pibpercapita;
 
 
-printf("Digite o Codigo:");
-scanf("%s", codigo);
+
+ printf("Digite o Estado:"); 
+ scanf("%s", Estado);
 
 
-printf("Digite o Nome da Cidade:");
-scanf("%s", nomedacidade);
+ printf("Digite o Codigo:");
+ scanf("%s", codigo);
 
 
-printf("Digite o numero de População:");
-scanf("%ld", &populacao);
+ printf("Digite o Nome da Cidade:");
+ scanf("%s", nomedacidade);
 
 
-printf("Digite o Tamnho da Àrea:");
-scanf("%f", &area);
+ printf("Digite o numero de População:");
+ scanf("%ld", &populacao);
 
 
-printf("Digite o PIB:");
-scanf("%f", &pib);
+ printf("Digite o Tamnho da Àrea:");
+ scanf("%f", &area);
 
 
-printf("Digite o Numero de Pontos Turisticos:");
-scanf("%d", &numerodepontosturisticos);
+ printf("Digite o PIB:");
+ scanf("%f", &pib);
 
 
-densidadePopulacional = (float) populacao / area;
-printf("Densidade Populacional: %f hab/km²\n", densidadePopulacional);
-
-pibpercapita = (float) pib / populacao;
-printf("PIB Per Capita: %f Reais\n", pibpercapita);
+ printf("Digite o Numero de Pontos Turisticos:");
+ scanf("%d", &numerodepontosturisticos);
 
 
-printf("carta2:\n");
+ densidadePopulacional = (float) populacao / area;
+ printf("Densidade Populacional: %f hab/km²\n", densidadePopulacional);
 
-char estado [20] = "Goiania";
-char Codigo[20] ="G02";
-char nomedacidadE [20] = "Goiânia";
-unsigned long int populacaO = 2563900;
-float Area = 160.70f;
-float Pib = 729000000.0f;
-int numerodepontosTuristicos = 50;
-float densidadepopulacional;
-float Pibpercapita;
+ pibpercapita = (float) pib / populacao;
+ printf("PIB Per Capita: %f Reais\n", pibpercapita);
 
 
-printf("Digite o Estado:");
-scanf(" %s", &estado);
+ printf("carta2:\n");
+
+ char estado [20] = "Goiania";
+ char Codigo[20] ="G02";
+ char nomedacidadE [20] = "Goiânia";
+ unsigned long int populacaO = 2563900;
+ float Area = 160.70f;
+ float Pib = 729000000.0f;
+ int numerodepontosTuristicos = 50;
+ float densidadepopulacional;
+ float Pibpercapita;
 
 
-printf("Digite o Codigo:");
-scanf(" %s", Codigo);
+ printf("Digite o Estado:");
+ scanf(" %s", estado);
 
 
-printf("Digite o nome da Cidade:");
-scanf("%s", nomedacidadE);
+ printf("Digite o Codigo:");
+ scanf(" %s", Codigo);
 
 
-printf("Digite o nume de População:");
-scanf("%ld", &populacaO);
+ printf("Digite o nome da Cidade:");
+ scanf("%s", nomedacidadE);
 
 
-printf("Digite o Tamanho da Área:");
-scanf("%f", &Area );
-
-printf("Digite o PIB:");
-scanf("%f", &Pib);
+ printf("Digite o nume de População:");
+ scanf("%ld", &populacaO);
 
 
-printf("Digote o Numero de Pontos Turisticos:");
-scanf("%d", &numerodepontosTuristicos);
+ printf("Digite o Tamanho da Área:");
+ scanf("%f", &Area );
+
+ printf("Digite o PIB:");
+ scanf("%f", &Pib);
 
 
-densidadePopulacional = (float) populacaO / Area;
-printf("Densidade Populacional: %f hab/km²\n", densidadePopulacional);
-
-pibpercapita = (float) Pib / populacaO;
-printf("PIB Per  capita: %f Reais\n", pibpercapita);
+ printf("Digote o Numero de Pontos Turisticos:");
+ scanf("%d", &numerodepontosTuristicos);
 
 
-if(populacao > populacaO){
+ densidadePopulacional = (float) populacaO / Area;
+ printf("Densidade Populacional: %f hab/km²\n", densidadePopulacional);
+
+ pibpercapita = (float) Pib / populacaO;
+ printf("PIB Per  capita: %f Reais\n", pibpercapita);
+
+
+ if(populacao > populacaO){
   printf("Carta1 Venveu!\n");
-}else{
+ }else{
     printf("Carta 2 Venceu!\n");
-}
+ }
 
-if(area > Area){
+ if(area > Area){
     printf("Carta 1 Venceu!\n");
-}else{
+ }else{
     printf("Carta 2 Venceu!\n");
-}
+ }
 
-if(pib > Pib){
+ if(pib > Pib){
     printf("Carta 1 Venceu!");
-}else{
+ }else{
     printf("Carta 1 Venceu!\n");
-}
+ }
 
-if(numerodepontosturisticos > numerodepontosTuristicos){
+ if(numerodepontosturisticos > numerodepontosTuristicos){
     printf("Carta 1 Venceu!\n");
-}else{
+ }else{
     printf("Carta 2 Venceu!\n");
-}
+ }
 
 
-if(densidadePopulacional < densidadepopulacional){
+ if(densidadePopulacional < densidadepopulacional){
     printf("Carta 1 Venceu!\n");
-}else{
+ }else{
     printf("Carta 2 Venceu!\n");
-}
+ }
 
-if(pibpercapita > Pibpercapita){
+ if(pibpercapita > Pibpercapita){
     printf("Carta 1 Venceu!\n");
-}else{
+ }else{
     Printf("Carta 2 Venceu!\n");
-}
+ }
 
 
 
   
-// Definição das variáveis para armazenar as propriedades das cidades
+ // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
     
