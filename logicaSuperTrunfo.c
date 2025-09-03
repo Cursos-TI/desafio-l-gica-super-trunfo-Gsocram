@@ -15,8 +15,6 @@
  float densidadePopulacional;
  float pibpercapita;
 
-
-
  printf("Digite o Estado:"); 
  scanf("%s", Estado);
 
@@ -100,7 +98,7 @@
 
 
  if(populacao > populacaO){
-  printf("Carta1 Venveu!\n");
+  printf("Carta 1 Venveu!\n");
  }else{
     printf("Carta 2 Venceu!\n");
  }
