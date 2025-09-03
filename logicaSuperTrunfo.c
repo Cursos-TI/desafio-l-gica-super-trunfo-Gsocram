@@ -2,7 +2,7 @@
  
 
 int main(){
-printf("Desafio  Super Trunfo - Países comparação das cartas \n");
+printf("Desafio  Super Trunfo - Países - comparação das cartas \n");
 printf("Carta1:\n");
 
 char Estado [20] = "Bahia";
@@ -124,10 +124,17 @@ if(numerodepontosturisticos > numerodepontosTuristicos){
 }
 
 
- (densidadePopulacional < densidadepopulacional);
+if(densidadePopulacional < densidadepopulacional){
+    printf("Carta 1 Venceu!\n");
+}else{
+    printf("Carta 2 Venceu!\n");
+}
 
-
- (pibpercapita > Pibpercapita);
+if(pibpercapita > Pibpercapita){
+    printf("Carta 1 Venceu!\n");
+}else{
+    Printf("Carta 2 Venceu!\n");
+}
 
 
 
