@@ -5,7 +5,7 @@ int main(){
 printf("Desafio  Super Trunfo - Países comparação das cartas \n");
 printf("Carta1:\n");
 
-char Estado = 'b';
+char Estado [20] = "Bahia";
 char codigo [20] = "b01";
 char nomedacidade [20] = "Salvador";
 unsigned long int populacao = 2568900;
@@ -18,7 +18,7 @@ float pibpercapita;
 
 
 printf("Digite o Estado:"); 
-scanf("%c", &Estado);
+scanf("%s", &Estado);
 
 
 printf("Digite o Codigo:");
@@ -54,7 +54,7 @@ printf("PIB Per Capita: %f Reais\n", pibpercapita);
 
 printf("carta2:\n");
 
-char estado ='g';
+char estado [20] = "Goiania";
 char Codigo[20] ="G02";
 char nomedacidadE [20] = "Goiânia";
 unsigned long int populacaO = 2563900;
@@ -66,7 +66,7 @@ float Pibpercapita;
 
 
 printf("Digite o Estado:");
-scanf(" %c", &estado);
+scanf(" %s", &estado);
 
 
 printf("Digite o Codigo:");
