@@ -98,14 +98,14 @@
 
  
  if(populacao > populacaO){
-  printf("Resulatado: Carta 1 (Bahia) Venveu!\n");
+  printf(" Carta 1 (Bahia) Venveu!\n");
  }else{
-    printf("Resultado: Carta 2 (Goiás) Venceu!\n");
+    printf(" Carta 2 (Goiás) Venceu!\n");
  }
  printf("Comparação de Cartas (Atributo:População)\n");
  printf("Carta 1 - Baiha(BA):%ld\n", populacao);
  printf("Carta 2 - Goiás(GO):%ld\n", populacaO);
- printf("Resultado: Carta 1 (Bahia) Venceu!");
+ printf("Resultado: Carta 1 (Bahia) Venceu\n!");
 
  if(area > Area){
     printf("Carta 1 Venceu!\n");
