@@ -132,7 +132,10 @@
  }else{
     printf("Carta 2 Venceu!\n");
  }
-
+   printf("Comparação de Cartas (Atributo: Numero de pontos Turistico)\n");
+   printf("Carta 1 Bahia(BA):%d\n",numerodepontosturisticos);
+   printf("Carta 2 - Goiás(GO):%d\n",numerodepontosTuristicos);
+   printf("Resultado: Carta 1 Venceu\n");
 
  if(densidadePopulacional < densidadepopulacional){
     printf("Carta 1 Venceu!\n");
