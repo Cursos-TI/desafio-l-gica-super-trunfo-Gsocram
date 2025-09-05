@@ -8,7 +8,7 @@
  char Estado [20] = "Bahia";
  char codigo [20] = "b01";
  char nomedacidade [20] = "Salvador";
- unsigned long int populacao = 2568900;
+ int populacao = 2568900;
  float area = 150.75f;
  float pib = 639000000.0f;
  int numerodepontosturisticos = 100;
@@ -28,7 +28,7 @@
 
 
  printf("Digite o numero de População:");
- scanf("%ld", &populacao);
+ scanf("%d", &populacao);
 
 
  printf("Digite o Tamnho da Àrea:");
@@ -55,7 +55,7 @@
  char estado [20] = "Goiás";
  char Codigo[20] ="G02";
  char nomedacidadE [20] = "Goiânia";
- unsigned long int populacaO = 2563900;
+ int populacaO = 2563900;
  float Area = 160.70f;
  float Pib = 729000000.0f;
  int numerodepontosTuristicos = 50;
@@ -76,7 +76,7 @@
 
 
  printf("Digite o nume de População:");
- scanf("%ld", &populacaO);
+ scanf("%d", &populacaO);
 
 
  printf("Digite o Tamanho da Área:");
@@ -98,26 +98,32 @@
 
  
  if(populacao > populacaO){
-  printf(" Carta 1 (Bahia) Venveu!\n");
+  printf(" Carta 1  Venveu!\n");
  }else{
-    printf(" Carta 2 (Goiás) Venceu!\n");
+    printf(" Carta 2  Venceu!\n");
  }
  printf("Comparação de Cartas (Atributo:População)\n");
- printf("Carta 1 - Baiha(BA):%ld\n", populacao);
- printf("Carta 2 - Goiás(GO):%ld\n", populacaO);
- printf("Resultado: Carta 1 (Bahia) Venceu\n!");
+ printf("Carta 1 - Baiha(BA):%d\n", populacao);
+ printf("Carta 2 - Goiás(go):%d\n", populacaO);
+ printf("Resultado: Carta 1 (Bahia)Venceu!\n");
 
  if(area > Area){
+   printf("Carta 1 Venceu!\n");
+ }else{
+   printf("Carta 2 Venceu!\n");
+ }
+ printf("Comparação de cartas (Atributo: Area)\n");
+ printf("Carta 1 - Bahia(BA):%f\n",area);
+ printf("Carta 2 - Goiás(GO):%f\n",Area);
+ printf("Resultado: Carta 2 (Goiás)Venceu!\n");
+
+ if(pib > Pib){
     printf("Carta 1 Venceu!\n");
  }else{
     printf("Carta 2 Venceu!\n");
  }
-
- if(pib > Pib){
-    printf("Carta 1 Venceu!");
- }else{
-    printf("Carta 2 Venceu!\n");
- }
+  printf("Comparação de Cartas (Atributo: PIB)\n");
+  printf("Carta 1 - Bahia(BA):%f\n", pib);
 
  if(numerodepontosturisticos > numerodepontosTuristicos){
     printf("Carta 1 Venceu!\n");
