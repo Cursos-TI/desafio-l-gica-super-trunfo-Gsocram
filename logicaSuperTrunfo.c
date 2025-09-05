@@ -154,6 +154,7 @@
  }
     printf("Comparação de Cartas (Atributo: Pib per capita\n)");
     printf("Carta 1 - Baiha(BA):%f\n", pibpercapita);
+    printf("Carta 2 - Goiás(GO):%f\n",Pibpercapita);
 
 
   
