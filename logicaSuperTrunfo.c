@@ -115,7 +115,7 @@
  printf("Comparação de cartas (Atributo: Area)\n");
  printf("Carta 1 - Bahia(BA):%f\n",area);
  printf("Carta 2 - Goiás(GO):%f\n",Area);
- printf("Resultado: Carta 2 (Goiás)Venceu!\n");
+ printf("Resultado: Carta 2 (Goiás) Venceu!\n");
 
  if(pib > Pib){
     printf("Carta 1 Venceu!\n");
@@ -125,7 +125,7 @@
   printf("Comparação de Cartas (Atributo: PIB)\n");
   printf("Carta 1 - Bahia(BA):%f\n", pib);
   printf("Catra 2 - Goiás(GO):%f\n",Pib);
-  printf("Resultado: Carta 2 Venceu!\n");
+  printf("Resultado: Carta 2 (Goiás) Venceu!\n");
 
  if(numerodepontosturisticos > numerodepontosTuristicos){
     printf("Carta 1 Venceu!\n");
@@ -135,7 +135,7 @@
    printf("Comparação de Cartas (Atributo: Numero de pontos Turistico)\n");
    printf("Carta 1 - Bahia(BA):%d\n",numerodepontosturisticos);
    printf("Carta 2 - Goiás(GO):%d\n",numerodepontosTuristicos);
-   printf("Resultado: Carta 1 Venceu\n");
+   printf("Resultado: Carta 1 (Bahia) Venceu\n");
 
  if(densidadePopulacional < densidadepopulacional){
     printf("Carta 1 Venceu!\n");
@@ -145,7 +145,7 @@
    printf("Comparação de Cartas (Atributo: Densidade Populacional)\n ");
    printf("Carta 1 - Bahia(BA):%f\n", densidadePopulacional);
    printf("Carta 2 - Goiás(GO):%f\n", densidadepopulacional);
-   printf("Resultado: Carta 2 Venceu!\n");
+   printf("Resultado: Carta 2 (Goiás) Venceu!\n");
 
  if(pibpercapita > Pibpercapita){
     printf("Carta 1 Venceu!\n");
@@ -155,6 +155,7 @@
     printf("Comparação de Cartas (Atributo: Pib per capita\n)");
     printf("Carta 1 - Baiha(BA):%f\n", pibpercapita);
     printf("Carta 2 - Goiás(GO):%f\n",Pibpercapita);
+    printf("Resultado: Carta 1 (Bahia)Venceu!");
 
 
   
