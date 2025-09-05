@@ -143,7 +143,8 @@
     printf("Carta 2 Venceu!\n");
  }
    printf("Comparação de Cartas (Atributo: Densidade Populacional)\n ");
-   printf("Carta 1 - Bahia(BA):%f\n", densidadepopulacional);
+   printf("Carta 1 - Bahia(BA):%f\n", densidadePopulacional);
+   printf("Carta 2 - Goiás(GO):%f\n", densidadepopulacional);
    
  if(pibpercapita > Pibpercapita){
     printf("Carta 1 Venceu!\n");
