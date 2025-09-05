@@ -153,7 +153,7 @@
     printf("Carta 2 Venceu!\n");
  }
     printf("Comparação de Cartas (Atributo: Pib per capita\n)");
-    
+    printf("Carta 1 - Baiha(BA):%f\n", pibpercapita);
 
 
   
