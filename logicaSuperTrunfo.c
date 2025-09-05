@@ -124,6 +124,8 @@
  }
   printf("Comparação de Cartas (Atributo: PIB)\n");
   printf("Carta 1 - Bahia(BA):%f\n", pib);
+  printf("Catra 2 - Goiás(GO):%f\n",Pib);
+  printf("Resultado: Carta 2 Venceu!\n");
 
  if(numerodepontosturisticos > numerodepontosTuristicos){
     printf("Carta 1 Venceu!\n");
