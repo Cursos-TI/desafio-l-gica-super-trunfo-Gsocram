@@ -152,7 +152,7 @@
  }else{
     printf("Carta 2 Venceu!\n");
  }
-    printf("Comparação de Cartas (Atributo: Pib per capita\n)");
+    printf("Comparação de Cartas (Atributo:Pib per capita\n)");
     printf("Carta 1 - Baiha(BA):%f\n", pibpercapita);
     printf("Carta 2 - Goiás(GO):%f\n",Pibpercapita);
     printf("Resultado: Carta 1 (Bahia)Venceu!");
