@@ -29,40 +29,8 @@
  int numerodepontosTuristicos = 50;
  float densidadepopulacional = populacaO / Area;
  float Pibpercapita = 2059.0f;
+  int escolha;
 
-
- printf("Digite o Estado:");
- scanf(" %s", estado);
-
-
- printf("Digite o Codigo:");
- scanf(" %s", Codigo);
-
-
- printf("Digite o nome da Cidade:");
- scanf("%s", nomedacidadE);
-
-
- printf("Digite o nume de População:");
- scanf("%d", &populacaO);
-
-
- printf("Digite o Tamanho da Área:");
- scanf("%f", &Area );
-
- printf("Digite o PIB:");
- scanf("%f", &Pib);
-
-
- printf("Digote o Numero de Pontos Turisticos:");
- scanf("%d", &numerodepontosTuristicos);
-
-
- densidadePopulacional = (float) populacaO / Area;
- printf("Densidade Populacional: %f hab/km²\n", densidadePopulacional);
-
- pibpercapita = (float) Pib / populacaO;
- printf("PIB Per  capita: %f Reais\n", pibpercapita);
 
  
  
