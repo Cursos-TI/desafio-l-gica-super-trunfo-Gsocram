@@ -8,103 +8,102 @@
  printf("Desafio  Super Trunfo Países - comparação das cartas\n");
  printf("Carta1:\n");
 
- char Estado [20] = "Bahia";
- char codigo [20] = "b01";
- char nomedacidade [20] = "Salvador";
- int populacao = 2568900;
- float area = 150.75f;
- float pib = 639000000.0f;
- int numerodepontosturisticos = 100;
- float densidadePopulacional = populacao / area;
- float pibpercapita = 28483.0f;
+ char País [20] = "Brasil";
+ int populacao = 215300000;
+ float area = 8516000.0f;
+ float pib = 164900000000.0f;
+ int numerodepontosturisticos = 1000;
+ float densidade_demografica = populacao / area;
+ 
 
  printf("carta2:\n");
 
- char estado [20] = "Goiás";
- char Codigo[20] ="G02";
- char nomedacidadE [20] = "Goiânia";
- int populacaO = 2563900;
+ char país [20] = "China";
+ int populacaO = 1426000000;
  float Area = 160.70f;
  float Pib = 729000000.0f;
  int numerodepontosTuristicos = 50;
- float densidadepopulacional = populacaO / Area;
- float Pibpercapita = 2059.0f;
-  int escolha;
-
-
- 
- 
- //printf("Comparação de Cartas (Atributo:População)\n");
- //printf("Carta 1 - Baiha(BA):%d\n", populacao);
- //printf("Carta 2 - Goiás(go):%d\n", populacaO);
- //printf("Resultado: Carta 1 (Bahia)Venceu!\n");
-
- 
- }
- //printf("Comparação de cartas (Atributo: Area)\n");
-// printf("Carta 1 - Bahia(BA):%f\n",area);
-// printf("Carta 2 - Goiás(GO):%f\n",Area);
- //printf("Resultado: Carta 2 (Goiás) Venceu!\n");
-
- 
-  //printf("Comparação de Cartas (Atributo: PIB)\n");
-  //printf("Carta 1 - Bahia(BA):%f\n", pib);
-  //printf("Catra 2 - Goiás(GO):%f\n",Pib);
-  //printf("Resultado: Carta 2 (Goiás) Venceu!\n");
-
-
-   //printf("Comparação de Cartas (Atributo: Numero de pontos Turistico)\n");
-   //printf("Carta 1 - Bahia(BA):%d\n",numerodepontosturisticos);
-   //printf("Carta 2 - Goiás(GO):%d\n",numerodepontosTuristicos);
-   //printf("Resultado: Carta 1 (Bahia) Venceu\n");
-
- 
-   //printf("Comparação de Cartas (Atributo: Densidade Populacional)\n ");
-   //printf("Carta 1 - Bahia(BA):%f\n", densidadePopulacional);
-   //printf("Carta 2 - Goiás(GO):%f\n", densidadepopulacional);
-   //printf("Resultado: Carta 2 (Goiás) Venceu!\n");
-
- 
- }
-    //printf("Comparação de Cartas (Atributo:Pib per capita\n)");
-    //printf("Carta 1 - Baiha(BA):%f\n", pibpercapita);
-    //printf("Carta 2 - Goiás(GO):%f\n",Pibpercapita);
-   // printf("Resultado: Carta 1 (Bahia)Venceu!");
-
-
+ float densidade_demograficA = populacaO / Area;
   
- // Definição das variáveis para armazenar as propriedades das cidades
-    // Você pode utilizar o código do primeiro desafio
+  int escolha;
+printf("Escolha um Atributo para comparar:\n");
+printf("1. População\n");
+printf("2. Area\n");
+printf("3. Pib\n");
+printf("4. Numero de pontos Turisticos\n");
+printf("5. Densidade Demografica\n");
+printf("Digite o numero da opção\n");
+scanf("%d", &escolha);
 
-    
-    // Cadastro das Cartas:
-    // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
-    // utilizando a função scanf para capturar as entradas.
-    // utilize o código do primeiro desafio
+switch(escolha){
+  case 1:
+  printf("Comparação de Cartas (Atributos: Papulaão)\n");
+  printf("Carta 1: %s - População: %d\n",País , populacao);
+  printf("Carta 2: %s - População: %d\n", País, populacaO);
+  
+  if(populacao > populacaO){
+    printf("Resultado: Carta 1 (%s) Venceu!\n", País);
+  }else if(populacaO > populacao){
+    printf("Resultado: carta 2 (%s) Venceu!\n",país);
+  
+  }else {
+    printf("Resultado: Empate!\n");
+  }
+  break;
+  case 2:
+  printf("Comparação de Cartas (Atributo: Area)\n");
+  printf("Carta 1: %s - Area: %.2f\n",País, area);
+  printf("Carta 2: %s - Area: %.2f\n",país, Area );
+  if (area > Area){
+    printf("Resultado: Carta 1 (%s) Venceu!\n", País);
+  }else if(Area > area){
+    printf("Resultado: carta 2 (%s) Venceu!\n", país);
+  }else{
+    printf("Resultado Empate!\n");
+  }
+  break;
+  case 3:
+  printf("Comparação de Cartas (Atributo: PIB)\n");
+  printf("Carta 1: %s - PIB: %.2f\n",País, pib);
+  printf("Carta 2: %s - PIB: %.2f\n",país,Pib);
+  if(pib>Pib){
+    printf("Resultado: Carta 1 (%s) Venceu!\n", País);
+  }else if(Pib>pib){
+    printf("Resultado: Carta 2 (%s) Venceu!\n",país);
+  }else{
+    printf("Resultado Empate!\n");
+  }
+break;
+case 4:
+printf("Comparação de Cartas (Atributo: Pontos Turisticos)\n");
+printf("Carta 1:%s - Pontos Turisticos: %d\n",País, numerodepontosturisticos);
+printf("Catra 2: %s - Pontos Turistico: %d\n",país, numerodepontosTuristicos);
+if(numerodepontosturisticos > numerodepontosTuristicos){
+  printf("Resultado: Carta 1 (%s) Venceu!\n",País);
+}else if(numerodepontosTuristicos > numerodepontosTuristicos){
+  printf("Resultado: Carta 2 (%s) Venceu!\n",país);
+}else{
+  printf("Resultado Empate!\n");
+}
+ break;
+ case 5:
+ printf("Comparação de Cartas (Atributo: Densidade Demografica)\n");
+ printf("Carta 1: %s Densidade Demografica: %.2f\n", País,densidade_demografica);
+ printf("Carta 2: %s Densidade Demografica: %.2f\n", país,densidade_demograficA);
+ if(densidade_demografica < densidade_demograficA){
+  printf("Resultado: Carta 1: (%s) - Venceu\n", País);
+ }else if(densidade_demograficA < densidade_demografica){
+  printf("Resultado: Carta 2 (%s)\n Venceu\n",país);
+ }else{
+  printf("Resultado empate!\n");
+ }
+ break;
+ default:
+ printf("Opção invalidade. Por favor, Escolhar um numero de 1 a 5.\n");
 
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
-    // 
-    // (Repita para cada propriedade)
-
-    // Comparação de Cartas:
-    // Desenvolva a lógica de comparação entre duas cartas.
-    // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
-
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
-
-    // Exibição dos Resultados:
-    // Após realizar as comparações, exiba os resultados para o usuário.
-    // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
+ break;
 
     return 0;
 }
+
+ }
