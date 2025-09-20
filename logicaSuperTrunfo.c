@@ -79,7 +79,7 @@ break;
  printf("Pontuação de %s: %d\n",País_brasil, pontuacao_c1);
  printf("Pontuação de %s: %d\n",país_china,pontuacao_c2);
 
-char resultado [] = (pontuacao_c1 > pontuacao_c2) ? "Brasil venceu!" : "Empate!";
+char *resultado  = (pontuacao_c1 > pontuacao_c2) ? ("Brasil venceu!") :( "Empate!");
 
 printf("Resultado: %s\n", resultado);
  return 0;
