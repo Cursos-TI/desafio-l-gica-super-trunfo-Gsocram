@@ -9,21 +9,21 @@
  printf("Carta1:\n");
 
  char País [20] = "Brasil";
- int populacao = 215300000;
- float area = 8516000.0f;
- float pib = 164900000000.0f;
- int numerodepontosturisticos = 1000;
- float densidade_demografica = populacao / area;
+ int populacao_brasil = 215300000;
+ float area_brasil= 8516000.0f;
+ float pib_brasil = 164900000000.0f;
+ int numerodepontosturisticos_brasil = 1000;
+ float densidade_demografica_brasil = populacao_brasil / area_brasil;
  
 
  printf("carta2:\n");
 
  char país [20] = "China";
- int populacaO = 1426000000;
- float Area = 160.70f;
- float Pib = 729000000.0f;
- int numerodepontosTuristicos = 50;
- float densidade_demograficA = populacaO / Area;
+ int populacaO_china= 1426000000;
+ float Area_china = 160.70f;
+ float Pib_china = 729000000.0f;
+ int numerodepontosTuristicos_china = 50;
+ float densidade_demograficA_china = populacaO_china / Area_china;
  
  int escolha1, escolha2;
  int pontuacao_c1 = 0;
@@ -63,4 +63,7 @@ if(escolha2 >= 1 && escolha2 <=5 && escolha2 != escolha1){
 }
 
  }
-
+printf("--- COMPARANDO OS ATRIBUTOS ---\n");
+switch(escolha1){
+  case 1 : if (populacao)
+}
