@@ -6,7 +6,7 @@
  printf("Desafio  Super Trunfo Países - comparação das cartas\n");
  printf("Carta1:\n");
 
- char País [20] = "Brasil";
+ char País_brasil [20] = "Brasil";
  int populacao_brasil = 215300000;
  float area_brasil= 8516000.0f;
  float pib_brasil = 164900000000.0f;
@@ -16,7 +16,7 @@
 
  printf("carta2:\n");
 
- char país [20] = "China";
+ char país_china [20] = "China";
  int populacaO_china= 1426000000;
  float Area_china = 160.70f;
  float Pib_china = 729000000.0f;
@@ -26,6 +26,7 @@
  int escolha1, escolha2;
  int pontuacao_c1 = 0;
  int pontuacao_c2 = 0;
+
   printf("--- ESCOLHA DO PRIMEIRO ATRIBUTO ---\n");
 
 printf("Escolha um Atributo para comparar:\n");
@@ -74,9 +75,14 @@ break;
 case 5 : if (densidade_demografica_brasil < densidade_demograficA_china) pontuacao_c1++; else pontuacao_c2++;
 break;
 }
- 
+ printf("--- RESULTADO FINAL---\n");
+ printf("Pontuação de %s: %d\n",País_brasil, pontuacao_c1);
+ printf("Pontuação de %s: %d\n",país_china,pontuacao_c2);
 
+char resultado [] = (pontuacao_c1 > pontuacao_c2) ? "Brasil venceu!" : "Empate!";
 
+printf("Resultado: %s\n", resultado);
+ return 0;
 
 
 }
