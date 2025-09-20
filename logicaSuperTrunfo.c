@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
  
 
@@ -65,5 +63,20 @@ if(escolha2 >= 1 && escolha2 <=5 && escolha2 != escolha1){
  }
 printf("--- COMPARANDO OS ATRIBUTOS ---\n");
 switch(escolha1){
-  case 1 : if (populacao)
+  case 1 : if (populacao_brasil > populacaO_china) pontuacao_c1++; else pontuacao_c2++; 
+  break;
+case 2: if(area_brasil > Area_china) pontuacao_c1++; else pontuacao_c2++;
+break;
+case 3: if(pib_brasil > Pib_china) pontuacao_c1++; else pontuacao_c2++;
+break;
+case 4 : if (numerodepontosturisticos_brasil > numerodepontosTuristicos_china) pontuacao_c1++; else pontuacao_c2++;
+break;
+case 5 : if (densidade_demografica_brasil < densidade_demograficA_china) pontuacao_c1++; else pontuacao_c2++;
+break;
+}
+ 
+
+
+
+
 }
