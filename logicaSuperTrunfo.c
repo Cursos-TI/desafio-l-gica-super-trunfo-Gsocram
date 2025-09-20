@@ -42,7 +42,7 @@ scanf("%d", &escolha1);
  int menu_valido = 0;
  while (!menu_valido){
 printf("O atributo %d ja foi selecionado. escolha outro.\n",escolha1);
-printf("Opiçães disponiveis:\n");
+printf("Opcães disponiveis:\n");
 if(escolha1 != 1) printf("1. População\n");
 
 if(escolha1 != 2) printf("2. Area\n");
